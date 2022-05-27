@@ -1,6 +1,6 @@
-# Introdução ao React Native
+# <a href="https://web.dio.me/course/introducao-ao-react-native/learning/09ce58b1-f910-4f7e-9df4-c0b8f718fb69?back=/track/decola-tech-3a-edicao&tab=undefined&moduleId=undefined" target="_blank">Introdução ao React Native</a>
 
-Primeiro contato com o React Native, a partir do curso disponilizado pela Digital Innovation One.
+Primeiro contato com o React Native, com elaboração de um projeto a partir do curso disponilizado pela Digital Innovation One.
 
 #### 📌 Visualização do projeto:
 <p align="left">
