@@ -27,6 +27,96 @@ const App = () => {
                 <Text accessibilityLabel='Nome do usuário.' style={[style.textoGithub, style.nameGithub]}>Gabriele de Medeiros</Text>
                 <Text accessibilityLabel='Nickname do usuário.' style={[style.textoGithub, style.nicknameGithub]}>gabdev95</Text>
                 <Text accessibilityLabel='Descrição do usuário: Hello, world! Símbolo de mundo.' style={[style.textoGithub, style.descricaoGithub]}>Hello, world! 🌎</Text>
+                <View  style={style.containerBox}>
+                    <View style={style.box} />
+                    <View style={style.box} />
+                    <View style={style.box} />
+                    <View style={style.box} />
+                    <View style={style.box} />
+                    <View style={style.box} />
+                    <View style={style.box} />
+                    <View style={style.box} />
+                    <View style={style.box} />
+                    <View style={style.box} />
+                    <View style={style.box} />
+                    <View style={style.box} />
+                    <View style={style.box} />
+                </View>
+                <View  style={style.containerBox}>
+                    <View style={style.box} />
+                    <View style={[style.box, style.boxColor1]} />
+                    <View style={[style.box, style.boxColor2]} />
+                    <View style={style.box} />
+                    <View style={style.box} />
+                    <View style={style.box} />
+                    <View style={[style.box, style.boxColor3]} />
+                    <View style={style.box} />
+                    <View style={style.box} />
+                    <View style={style.box} />
+                    <View style={[style.box, style.boxColor1]} />
+                    <View style={style.box} />
+                    <View style={style.box} />
+                </View>
+                <View  style={style.containerBox}>
+                    <View style={style.box} />
+                    <View style={[style.box, style.boxColor2]} />
+                    <View style={style.box} />
+                    <View style={[style.box, style.boxColor2]} />
+                    <View style={style.box} />
+                    <View style={style.box} />
+                    <View style={[style.box, style.boxColor1]} />
+                    <View style={style.box} />
+                    <View style={style.box} />
+                    <View style={[style.box, style.boxColor3]} />
+                    <View style={style.box} />
+                    <View style={[style.box, style.boxColor2]} />
+                    <View style={style.box} />
+                </View>
+                <View  style={style.containerBox}>
+                    <View style={style.box} />
+                    <View style={[style.box, style.boxColor2]} />
+                    <View style={style.box} />
+                    <View style={[style.box, style.boxColor1]} />
+                    <View style={style.box} />
+                    <View style={style.box} />
+                    <View style={[style.box, style.boxColor2]} />
+                    <View style={style.box} />
+                    <View style={style.box} />
+                    <View style={[style.box, style.boxColor1]} />
+                    <View style={style.box} />
+                    <View style={[style.box, style.boxColor1]} />
+                    <View style={style.box} />
+                </View>
+                <View  style={style.containerBox}>
+                    <View style={style.box} />
+                    <View style={[style.box, style.boxColor3]} />
+                    <View style={[style.box, style.boxColor2]} />
+                    <View style={style.box} />
+                    <View style={style.box} />
+                    <View style={style.box} />
+                    <View style={[style.box, style.boxColor1]} />
+                    <View style={style.box} />
+                    <View style={style.box} />
+                    <View style={style.box} />
+                    <View style={[style.box, style.boxColor2]} />
+                    <View style={style.box} />
+                    <View style={style.box} />
+                </View>
+                <View  style={style.containerBox}>
+                    <View style={style.box} />
+                    <View style={style.box} />
+                    <View style={style.box} />
+                    <View style={style.box} />
+                    <View style={style.box} />
+                    <View style={style.box} />
+                    <View style={style.box} />
+                    <View style={style.box} />
+                    <View style={style.box} />
+                    <View style={style.box} />
+                    <View style={style.box} />
+                    <View style={style.box} />
+                    <View style={style.box} />
+                </View>
                 <Pressable onPress={hanblePressGoToGithub}>
                     <View style={style.buttonOpenIn}>
                         <Text style={[style.textoGithub, style.textButton]}>Open in GitHub</Text>
@@ -41,7 +131,7 @@ export default App;
 
 const style = StyleSheet.create({
     container: {
-        backgroundColor: 'colorGithub',
+        backgroundColor: colorGithub,
         flex: 1, //Expandir para a tela inteira
         justifyContent: 'center',
         alignItems: 'center',
@@ -73,15 +163,37 @@ const style = StyleSheet.create({
         marginTop: 10,
         fontSize: 14,
         fontWeight: 'bold',
+        paddingBottom: 20,
     },
     buttonOpenIn: {
         marginTop: 10,
         backgroundColor: colorDarkGithub,
         borderRadius: 10,
         padding: 20,
+        paddingTop: 20,
+        marginTop: 20,
     },
     textButton: {
         fontSize: 16,
         fontWeight: 'bold',
+    },
+    containerBox: {
+        flexDirection: 'row',
+    },
+    box: {
+        height: 15,
+        width: 15,
+        borderRadius: 3,
+        backgroundColor: '#4F565E',
+        margin: 2,
+    },
+    boxColor1: {
+        backgroundColor: '#216E39',
+    },
+    boxColor2: {
+        backgroundColor: '#30A14E',
+    },
+    boxColor3: {
+        backgroundColor: '#9BE9A8',
     },
 });
