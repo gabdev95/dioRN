@@ -2,6 +2,11 @@
 
 Primeiro contato com o React Native, com elaboração de um projeto a partir do curso disponilizado pela Digital Innovation One.
 
+#### 📌 Visualização do projeto final:
+<p align="left">
+  <img height="500em" src="/img/img_desafio.png">
+</p>
+
 #### 📌 Visualização do projeto:
 <p align="left">
   <img height="500em" src="/img/img_readme.png">
